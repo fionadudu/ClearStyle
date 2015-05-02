@@ -13,6 +13,8 @@
 		F28DE15B1AE5488300BACC2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28DE15A1AE5488300BACC2B /* Images.xcassets */; };
 		F28DE15E1AE5488300BACC2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28DE15C1AE5488300BACC2B /* LaunchScreen.xib */; };
 		F28DE16A1AE5488300BACC2B /* ClearStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28DE1691AE5488300BACC2B /* ClearStyleTests.swift */; };
+		F28DE1741AE549D500BACC2B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28DE1731AE549D500BACC2B /* ToDoItem.swift */; };
+		F28DE1761AE55DC000BACC2B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28DE1751AE55DC000BACC2B /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F28DE1631AE5488300BACC2B /* ClearStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28DE1681AE5488300BACC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F28DE1691AE5488300BACC2B /* ClearStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearStyleTests.swift; sourceTree = "<group>"; };
+		F28DE1731AE549D500BACC2B /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		F28DE1751AE55DC000BACC2B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				F28DE1531AE5488300BACC2B /* AppDelegate.swift */,
 				F28DE1551AE5488300BACC2B /* ViewController.swift */,
+				F28DE1751AE55DC000BACC2B /* TableViewCell.swift */,
 				F28DE1571AE5488300BACC2B /* Main.storyboard */,
+				F28DE1731AE549D500BACC2B /* ToDoItem.swift */,
 				F28DE15A1AE5488300BACC2B /* Images.xcassets */,
 				F28DE15C1AE5488300BACC2B /* LaunchScreen.xib */,
 				F28DE1511AE5488300BACC2B /* Supporting Files */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28DE1561AE5488300BACC2B /* ViewController.swift in Sources */,
+				F28DE1761AE55DC000BACC2B /* TableViewCell.swift in Sources */,
 				F28DE1541AE5488300BACC2B /* AppDelegate.swift in Sources */,
+				F28DE1741AE549D500BACC2B /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
